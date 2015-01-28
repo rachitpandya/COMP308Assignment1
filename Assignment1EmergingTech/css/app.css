@@ -10,3 +10,28 @@ box-shadow: 0px 10px 0px 1px #e9e4e4, 0px 16px 0px 1px #e9e4e4, 0px 22px 0px 1px
 div.footer {
     text-align:center;
 }
+#bannerstyle {
+background:url(../assets/images/banner2.png);background-repeat:no-repeat;background-position:center
+}
+#logo {
+    padding:0px 0px 0px 75px;
+}
+#chp {
+    text-align:justify;
+}
+#clrng {
+    align-self:center;
+}
+$icon-bar-bg: $oil;
+$icon-bar-font-color: $white;
+$icon-bar-font-color-hover: $icon-bar-font-color;
+$icon-bar-font-size: 1rem;
+$icon-bar-hover-color: $primary-color;
+$icon-bar-icon-color: $white;
+$icon-bar-icon-color-hover: $icon-bar-icon-color;
+$icon-bar-icon-size: 1.875rem;
+$icon-bar-image-width: 1.875rem;
+$icon-bar-image-height: 1.875rem;
+$icon-bar-active-color: $primary-color;
+$icon-bar-item-padding: 1.25rem;
+$icon-bar-disabled-opacity: 0.7

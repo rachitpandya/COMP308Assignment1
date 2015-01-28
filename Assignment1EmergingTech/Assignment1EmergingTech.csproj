@@ -67,9 +67,13 @@
   <ItemGroup>
     <Content Include="assets\images\arrows.png" />
     <Content Include="assets\images\background.jpg" />
+    <Content Include="assets\images\banner.jpg" />
+    <Content Include="assets\images\banner1.jpg" />
+    <Content Include="assets\images\banner2.png" />
     <Content Include="assets\images\bullets.png" />
     <Content Include="assets\images\CHireportal.jpg" />
     <Content Include="assets\images\loading.gif" />
+    <Content Include="assets\images\logodesign.png" />
     <Content Include="assets\images\PnL.jpg" />
     <Content Include="assets\images\svgs\fi-address-book.svg" />
     <Content Include="assets\images\svgs\fi-alert.svg" />
@@ -361,8 +365,10 @@
     <Content Include="css\normalize.css" />
     <Content Include="humans.txt" />
     <Content Include="index.html" />
+    <Content Include="Projects.html" />
     <Content Include="robots.txt" />
     <Content Include="Scripts\lib\app.js" />
+    <Content Include="Scripts\lib\foundation.clearing.js" />
     <Content Include="Scripts\lib\foundation.min.js" />
     <Content Include="Scripts\lib\jquery.js" />
     <None Include="Scripts\_references.js" />
