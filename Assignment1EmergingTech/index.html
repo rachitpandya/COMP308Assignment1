@@ -10,10 +10,7 @@
     <link href="css/foundation.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="css/foundation-icons.css" rel="stylesheet" />
-    
 
-    
-    
 </head>
 <body >
     <div class="row"  id="bannerstyle" >
@@ -31,40 +28,47 @@
 
         </header>
     </div>
+
     <div class="row">
         <div class="large-12 small-12 columns">
-            <div class="icon-bar six-up" role="navigation">
-                <a class="active item" aria-labelledby="#itemlabel1">
+            <div id="menubarcss" class="icon-bar six-up" role="navigation">
+                <a class="active item" aria-labelledby="#itemlabel1" href="index.html">
                     <img src="../assets/images/svgs/fi-home.svg">
                     <label id='itemlabel1'>Home</label>
                 </a>
                 <a class="item" aria-labelledby="#itemlabel2" href="Projects.html">
                     <img src="../assets/images/svgs/fi-projection-screen.svg">
-                    
                     <label id='itemlabel2'>Projects Done</label>
-                    
                 </a>
-                <a class="item" aria-labelledby="#itemlabel3">
+                <a class="item" aria-labelledby="#itemlabel3" href="AboutMe.html">
                     <img src="../assets/images/svgs/fi-info.svg">
                     <label id='itemlabel3'>About Me</label>
-                    </a>
-                 <a class="item" aria-labelledby="#itemlabel3">
-                     <img src="../assets/images/svgs/fi-social-skillshare.svg">
-                        <label id='itemlabel3'>Services</label>
-                    </a>
-                <a class="item" aria-labelledby="#itemlabel4">
+                </a>
+                <a class="item" aria-labelledby="#itemlabel4" href="Services.html">
+                    <img src="../assets/images/svgs/fi-social-skillshare.svg">
+                    <label id='itemlabel4'>Services</label>
+                </a>
+                <a class="item" aria-labelledby="#itemlabel5" href="ContactMe.html">
                     <img src="../assets/images/svgs/fi-mail.svg">
-                    <label id='itemlabel4'>Contact Me</label>
+                    <label id='itemlabel5'>Contact Me</label>
                 </a>
-                <a class="item" aria-labelledby="#itemlabel5">
+                <a class="item" aria-labelledby="#itemlabel6" href="https://github.com/RachitPandya">
                     <img src="../assets/images/svgs/fi-social-github.svg">
-                    <label id='itemlabel5'>GitHub</label>
+                    <label id='itemlabel6'>GitHub</label>
                 </a>
-            </div>
+           </div>
         </div>
-        </div><!--close menubar-->
-       
-        <br />
+    </div><!--close menubar-->
+    <div class="row">
+        <nav id="brdcrmstyle" class="breadcrumbs">
+            <a href="index.html">Home</a>
+            <a class="unavailable" href="#">Projects</a>
+            <a class="unavailable" href="#">About Me</a>
+            <a class="unavailable" href="#">Contact Me</a>
+            <a class="unavailable" href="#">Services</a>
+        </nav>
+    </div>
+    <br /><!--Close Breadcrums-->
     
     <div class="row">
         <aside class="large-6 small-5 columns">
@@ -105,7 +109,23 @@
     </div>
     <div class="row">
         <div class="large-12 small-12 columns">
-            <div id="footer" style="text-align:center">
+            <div id="panel1" class="panel callout radius">
+                <h5>Keep Connected</h5>
+                <a  id="btnsmall" class="th" role="button" aria-label="Thumbnail" href="https://twitter.com/RachitPandya">
+                    <img aria-hidden=true src="assets/images/twitter.png" />
+                </a>
+                <a id="btnsmall" class="th" role="button" aria-label="Thumbnail" href="https://ca.linkedin.com/pub/rachit-pandya/44/726/163">
+                    <img aria-hidden=true src="assets/images/lin.png" />
+                </a>
+                <a id="btnsmall" class="th" role="button" aria-label="Thumbnail" href="https://plus.google.com/u/0/+RachitPandya/about">
+                    <img aria-hidden=true src="assets/images/gp.png" />
+                </a>
+            </divid>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 small-12 columns">
+            <div id="footer">
                 Copyrights © 2015 All Rights are received | Design and Developed By <a href="#">Rachit Pandya</a>
             </div><!--close footer-->
         </div>

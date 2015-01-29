@@ -7,8 +7,10 @@ a.menu-icon span {
 -webkit-box-shadow: 0 10px 0 1px #e9e4e4, 0 16px 0 1px #e9e4e4, 0 22px 0 1px #e9e4e4;
 box-shadow: 0px 10px 0px 1px #e9e4e4, 0px 16px 0px 1px #e9e4e4, 0px 22px 0px 1px #e9e4e4;
 }
-div.footer {
+#footer {
     text-align:center;
+    font-size:15px;
+    padding-bottom:2em;
 }
 #bannerstyle {
 background:url(../assets/images/banner2.png);background-repeat:no-repeat;background-position:center
@@ -22,16 +24,68 @@ background:url(../assets/images/banner2.png);background-repeat:no-repeat;backgro
 #clrng {
     align-self:center;
 }
-$icon-bar-bg: $oil;
-$icon-bar-font-color: $white;
-$icon-bar-font-color-hover: $icon-bar-font-color;
-$icon-bar-font-size: 1rem;
-$icon-bar-hover-color: $primary-color;
-$icon-bar-icon-color: $white;
-$icon-bar-icon-color-hover: $icon-bar-icon-color;
-$icon-bar-icon-size: 1.875rem;
-$icon-bar-image-width: 1.875rem;
-$icon-bar-image-height: 1.875rem;
-$icon-bar-active-color: $primary-color;
-$icon-bar-item-padding: 1.25rem;
-$icon-bar-disabled-opacity: 0.7
+#btnsmall {
+    height:50px;
+    width:50px;
+    margin-right:20px;
+    
+
+}
+#panel1 {
+    background-color:transparent;
+opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+#panel1:hover {
+     background-color:transparent;
+opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+#imgclrng {
+    height:275px;
+    
+}
+#brdcrmstyle {
+    padding-left:2em;
+background-color:transparent;
+font-weight:bold;
+}
+.circular {
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	background: url(../assets/images/myimg.jpg) no-repeat;
+    background-size:cover;
+	}
+
+.circular img {
+	opacity: 0;
+	filter: alpha(opacity=0);
+    height:300px;
+    width:300px;
+	}
+h4 {
+    font-style:italic;
+    color:blue;
+}
+#resumelink {
+    text-align:center;
+    font-size:20px;
+    color:red;
+    font-family:'Lucida Fax';
+}
+#intro {
+    font-size:60px;
+    font-family:'Lucida Handwriting';
+    color:red;
+    font-style:italic;
+
+}
+#subintro {
+    
+    font-family:Calibri;
+    color:red;
+    font-style:italic;
+}
