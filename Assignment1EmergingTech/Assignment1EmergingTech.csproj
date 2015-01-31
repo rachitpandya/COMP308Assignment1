@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\fb.png" />
     <Content Include="assets\images\home.png" />
     <Content Include="assets\other\RachitPandya.docx" />
     <None Include="Web.Debug.config">

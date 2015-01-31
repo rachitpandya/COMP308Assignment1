@@ -1,8 +1,13 @@
 ﻿body {
-    font: normal 85% Arial, Helvetica, sans-serif;
-  background: url(../assets/images/background.jpg) repeat;
-  color: #000;
+        font: normal 85% Arial, Helvetica, sans-serif;
+        background: url(../assets/images/background.jpg) repeat;
+        color: #000000;
 }
+#headerstyle {
+    font-family:"Lucida Handwriting";
+    color:#f29f0a;
+}
+
 a.menu-icon span {
 -webkit-box-shadow: 0 10px 0 1px #e9e4e4, 0 16px 0 1px #e9e4e4, 0 22px 0 1px #e9e4e4;
 box-shadow: 0px 10px 0px 1px #e9e4e4, 0px 16px 0px 1px #e9e4e4, 0px 22px 0px 1px #e9e4e4;
